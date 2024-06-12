@@ -1,0 +1,20 @@
+.input-red {
+    color: rgb(233, 54, 54);
+  }
+  
+  .input-orange {
+    color: #f9a23b;
+  }
+  
+  .input-green {
+    color: #c2d23a;
+  }
+  
+  .journal-table input {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    border: none;
+    padding: 8px;
+  }
+  

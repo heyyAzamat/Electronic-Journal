@@ -1,0 +1,72 @@
+.grade-cell {
+    width: 50px;
+    text-align: center;
+    border: none;
+    -moz-appearance: textfield; /* Firefox */
+    -webkit-appearance: none; /* Safari and Chrome */
+    appearance: none; /* Other browsers */
+  }
+  
+  .grade-cell::-webkit-outer-spin-button,
+  .grade-cell::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .bg-green {
+    background-color: #d4edda;
+  }
+  
+  .bg-orange {
+    background-color: #ffeeba;
+  }
+  
+  .bg-red {
+    background-color: #f8d7da;
+  }
+  
+  .recommended-grade.grade-5 {
+    background-color: #28a745;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .recommended-grade.grade-4 {
+    background-color: #28a745;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .recommended-grade.grade-3 {
+    background-color: #ffc107;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .recommended-grade.grade-2 {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .delete-button-cell {
+    text-align: right;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
